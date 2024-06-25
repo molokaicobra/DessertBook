@@ -22,8 +22,7 @@
 		9CC19C192C249EB300480A29 /* DetailedRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC19C182C249EB300480A29 /* DetailedRecipeView.swift */; };
 		9CC19C1B2C28BD7100480A29 /* RecipeAPIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC19C1A2C28BD7100480A29 /* RecipeAPIProtocol.swift */; };
 		9CC19C1E2C28BDA000480A29 /* MockNetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC19C1D2C28BDA000480A29 /* MockNetworkConnection.swift */; };
-		9CC19C202C29C61E00480A29 /* TestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC19C1F2C29C61E00480A29 /* TestAPI.swift */; };
-		9CC19C222C29D36900480A29 /* MockAPIRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC19C212C29D36900480A29 /* MockAPIRecipe.swift */; };
+		9CC4BA252C2A68A700EC2856 /* TestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC19C1F2C29C61E00480A29 /* TestAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +62,6 @@
 		9CC19C1A2C28BD7100480A29 /* RecipeAPIProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeAPIProtocol.swift; sourceTree = "<group>"; };
 		9CC19C1D2C28BDA000480A29 /* MockNetworkConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkConnection.swift; sourceTree = "<group>"; };
 		9CC19C1F2C29C61E00480A29 /* TestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAPI.swift; sourceTree = "<group>"; };
-		9CC19C212C29D36900480A29 /* MockAPIRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIRecipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,7 +161,7 @@
 		9CC19C0E2C24869C00480A29 /* NetworkCode */ = {
 			isa = PBXGroup;
 			children = (
-				9CC19C0F2C2486CB00480A29 /* RecipeAPI.swift */,
+				9CC19C1F2C29C61E00480A29 /* TestAPI.swift */,
 				9CC19C112C24870F00480A29 /* Caching.swift */,
 			);
 			path = NetworkCode;
@@ -172,10 +170,10 @@
 		9CC19C132C2487AE00480A29 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				9CC19C0F2C2486CB00480A29 /* RecipeAPI.swift */,
 				9CC19C142C248C7100480A29 /* RecipeStructures.swift */,
 				9CC19C162C248C9400480A29 /* Errors.swift */,
 				9CC19C1A2C28BD7100480A29 /* RecipeAPIProtocol.swift */,
-				9CC19C1F2C29C61E00480A29 /* TestAPI.swift */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -184,7 +182,6 @@
 			isa = PBXGroup;
 			children = (
 				9CC19C1D2C28BDA000480A29 /* MockNetworkConnection.swift */,
-				9CC19C212C29D36900480A29 /* MockAPIRecipe.swift */,
 			);
 			path = MockData;
 			sourceTree = "<group>";
@@ -323,7 +320,7 @@
 				9CC19C192C249EB300480A29 /* DetailedRecipeView.swift in Sources */,
 				9CC19C152C248C7100480A29 /* RecipeStructures.swift in Sources */,
 				9CC19BDE2C247B8500480A29 /* DessertBookApp.swift in Sources */,
-				9CC19C202C29C61E00480A29 /* TestAPI.swift in Sources */,
+				9CC4BA252C2A68A700EC2856 /* TestAPI.swift in Sources */,
 				9CC19C122C24870F00480A29 /* Caching.swift in Sources */,
 				9CC19C172C248C9400480A29 /* Errors.swift in Sources */,
 				9CC19C0D2C24863A00480A29 /* RecipeTableView.swift in Sources */,
@@ -337,7 +334,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CC19C1E2C28BDA000480A29 /* MockNetworkConnection.swift in Sources */,
-				9CC19C222C29D36900480A29 /* MockAPIRecipe.swift in Sources */,
 				9CC19BEF2C247B8700480A29 /* DessertBookTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
